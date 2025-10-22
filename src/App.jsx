@@ -1,9 +1,19 @@
 import React from 'react'
+import { Router , Route , Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import TicTacToe from './pages/TicTacToe'
+import RockPaperScissor from './pages/RockPaperScissor'
 
 const App = () => {
   return (
-    <div>
-      <h1>Game HUb</h1>
+    <div className='text-center mt-10'>
+      <Router>
+        <Routes>
+          <Route path='/' element={Home} />
+          <Route path='/tic-tac-toe' element={TicTacToe} />
+          <Route path='/rock-paper-scissor' element={RockPaperScissor} />
+        </Routes>
+      </Router>
     </div>
   )
 }

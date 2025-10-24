@@ -34,6 +34,12 @@ const Home = () => {
         >
            Number Guess
         </Link>
+        <Link
+          to="/whack-a-mole"
+          className="bg-white shadow-md rounded-xl px-8 py-6 text-lg font-semibold text-pink-600 hover:bg-pink-600 hover:text-white transition-all duration-300"
+        >
+           Whack a mole
+        </Link>
       </div>
     </div>
   )

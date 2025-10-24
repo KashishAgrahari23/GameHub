@@ -5,6 +5,7 @@ import TicTacToe from './pages/TicTacToe'
 import RockPaperScissor from './pages/RockPaperScissor'
 import MemoryGame from './pages/MemoryGame'
 import NumberGuess from './pages/NumberGuess'
+import WhackAMole from './pages/WhackAMole'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path='/rock-paper-scissor' element={<RockPaperScissor/>} />
           <Route path='/memory-game' element={<MemoryGame/>} />
           <Route path='/number-guess' element={<NumberGuess/>} />
+          <Route path='/whack-a-mole' element={<WhackAMole/>} />
         </Routes>
       </Router>
     </div>

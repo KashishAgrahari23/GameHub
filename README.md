@@ -1,16 +1,100 @@
-# React + Vite
+```markdown
+# 🎮 Game Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and fun **React + Tailwind CSS** based mini-game platform where users can play small classic games like **Tic Tac Toe**, **Rock Paper Scissors**, **Memory Flip Game**, and **Number Guess** — all in one place.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🧠 **Multiple Games in One App**
+  - Tic Tac Toe  
+  - Rock Paper Scissors  
+  - Memory Flip Card  
+  - Number Guess  
+  - (More coming soon!)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ⚛️ **Built with React + Vite**
+- 🎨 **Styled using Tailwind CSS**
+- 🔄 **SPA Navigation** with React Router
+- 💡 **State Management** with React Hooks (`useState`, `useEffect`)
+- 🌐 **Deployed on Netlify**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|-------------|----------|
+| **React** | Frontend library |
+| **Vite** | Fast build tool |
+| **Tailwind CSS** | Styling |
+| **React Router DOM** | Routing and navigation |
+| **JavaScript (ES6+)** | Core language |
+
+---
+
+## 📂 Project Structure
+
+```
+
+GameHub/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── TicTacToe.jsx
+│   │   ├── RockPaperScissor.jsx
+│   │   ├── MemoryGame.jsx
+│   │   └── NumberGuess.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── public/
+├── package.json
+├── tailwind.config.js
+└── README.md
+
+````
+
+
+## 🧩 Build for Production
+
+```bash
+npm run build
+```
+
+Output will be available in the `/dist` folder.
+
+---
+
+## 🌍 Deployment
+
+Deployed on **Netlify**
+👉 [Live Demo](cool-raindrop-fee88e.netlify.app)
+
+---
+
+## 🧠 Learning Highlights
+
+This project helped in revising core **React** concepts:
+
+* Component structure & JSX
+* State management using `useState`
+* Side effects using `useEffect`
+* Routing using React Router DOM
+* Tailwind CSS utility-first design
+
+---
+
+## ✨ Future Improvements
+
+* 🎵 Add sound effects & animations
+* 🧩 Add new games (Sudoku, Snake, etc.)
+* 💾 Persist game scores in localStorage
+* 💾 Integrate backend as well
+
+---
+

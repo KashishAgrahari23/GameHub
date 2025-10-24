@@ -28,6 +28,12 @@ const Home = () => {
         >
            Memory Game
         </Link>
+        <Link
+          to="/number-guess"
+          className="bg-white shadow-md rounded-xl px-8 py-6 text-lg font-semibold text-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-300"
+        >
+           Number Guess
+        </Link>
       </div>
     </div>
   )
